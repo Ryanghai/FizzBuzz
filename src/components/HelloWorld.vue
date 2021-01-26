@@ -35,7 +35,23 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  mounted() {
+    let x = 3;
+    if (x%3===0){
+      console.log('fizz')
+    } else if (x%5===0) {
+      console.log('buzz')
+    } else if (x%15===0) {
+      console.log('fizzbuzz')
+    }
   }
+  console.log('test for conflict')
+  console.log('test for conflict')
+  console.log('test for conflict')
+  console.log('test for conflict')
+  console.log('test for conflict')
+  console.log('test for conflict')
 }
 </script>
 
