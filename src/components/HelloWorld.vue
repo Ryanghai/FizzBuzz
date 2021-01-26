@@ -46,12 +46,12 @@ export default {
       console.log('fizzbuzz')
     }
   }
-  console.log('test for conflict')
-  console.log('test for conflict')
-  console.log('test for conflict')
-  console.log('test for conflict')
-  console.log('test for conflict')
-  console.log('test for conflict')
+  console.log('test for 1conflict')
+  console.log('test for 2conflict')
+  console.log('test for 3conflict')
+  console.log('test for 4conflict')
+  console.log('test for 5conflict')
+  console.log('test for 6conflict')
 }
 </script>
 
