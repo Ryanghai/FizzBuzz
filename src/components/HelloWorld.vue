@@ -35,24 +35,7 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  mounted() {
-    let x = 3;
-    if (x%3===0){
-      console.log('fizz')
-    } else if (x%5===0) {
-      console.log('buzz')
-    } else if (x%15===0) {
-      console.log('fizzbuzz')
-    }
   }
-
-  console.log('test for 321conflict')
-  console.log('test for 546conflict')
-  console.log('test for 753conflict')
-  console.log('test for 4167conflict')
-  console.log('testhoge 444for conflict')
-  console.log('testtest 772for conflict')
 }
 </script>
 
